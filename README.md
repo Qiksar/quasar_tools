@@ -14,6 +14,8 @@ Inside this folder are two files:
 1. devcontainer.json - These are the instructions on how to build a development environment with Docker, and which VSCODE extensions are required.
 2. Dockerfile - This file describes how to build a container which will act as the development environment.
 
+![image](https://user-images.githubusercontent.com/45703746/148666326-6896e702-507e-42d6-824c-b325a127e949.png)
+
 
 ## How to use it
 
@@ -24,10 +26,12 @@ Simply execute the following command to add a devcontainer to your current proje
 
 In your current directory, you have now created a folder ```.devcontainer```
 
+
 ### Open VS CODE and start the Dev Container
 Open VSCODE in the current folder, and it will ask you, do you want to open the dev container, simply click Reopen in Container. 
 
 ![image](https://user-images.githubusercontent.com/45703746/148666157-c806f719-47b4-48c0-80e4-80bce2fe825f.png)
+
 
 ### Create your new Quasar App!
 
@@ -36,6 +40,7 @@ Execute the Quasar CLI to create your app:
 ```quasar create .```
 
 Note, this tells quasar that you want to create the project in the current folder, not a sub directory.
+
 
 ### You're good to go!
 
